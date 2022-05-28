@@ -1,0 +1,38 @@
+#top-ico{
+    color: rgba(112, 104, 105, 0.829);
+}
+
+
+.ico{
+    color:  rgb(205, 213, 218) !important;
+}
+
+#err{
+    color: rgba(224, 62, 70, 0.815);
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 35px;
+}
+
+#sub{
+    color: #505D75;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+}
+
+#swift #bl{
+ position: fixed;
+ bottom: 1rem;
+ left: .5rem;
+}
+
+#swift #br{
+ position: fixed;
+ bottom: 1rem;
+ right: .5rem;
+}
+
+
+

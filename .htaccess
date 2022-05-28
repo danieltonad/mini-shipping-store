@@ -1,0 +1,43 @@
+#hide or redirect .php
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.php -f
+  RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+
+#max upload 500MB
+LimitRequestBody 5000000
+
+
+#error 
+ErrorDocument 404  http://localhost/lawson/404
+ErrorDocument 500  http://localhost/lawson/404
+
+
+
+
+#disallow script execution
+Options -ExecCGI
+AddHandler cgi-script .php .pl .py .jsp .asp .htm .shtml .sh .cgi
+
+
+#protect php cgi
+<FilesMatch "^php5?\.(ini|cgi)$">
+Order Deny,Allow
+Deny from All
+Allow from env=REDIRECT_STATUS
+</FilesMatch>
+
+#Deny access if var=val contains the string foo.
+RewriteCond %{QUERY_STRING} foo
+RewriteRule ^/url - [F]
+
+
+
+
+
+
+
+

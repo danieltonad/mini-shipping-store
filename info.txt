@@ -1,0 +1,14 @@
+#configure 
+
+Goto => lawson/controler/config.php
+ To edit the database info
+
+ open shipping.sql 
+    copy sql code
+        execute in the phpmyadmin
+
+
+ 
+ admin link: localhost/lawson/admin
+
+ index link: localhost/lawson

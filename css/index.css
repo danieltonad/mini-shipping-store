@@ -1,0 +1,161 @@
+#nav{
+    background: linear-gradient(to right,#a8086b,#B828C4,#0C0E28 160%);
+    text-align: center;
+    width: 100%;
+}
+
+
+#navContent{
+    padding: 1rem .2rem .1rem .2rem;
+    display: flex;
+    flex-flow: row nowrap ;
+    width: 60%;
+}
+
+.flex-item{
+    align-self: center;
+}
+
+
+#logoParent{
+    background: transparent;
+    transform: rotate(-5deg);
+    width: 4rem; height: 4rem;;
+    position: relative;
+}
+
+#logo{
+    color: rgb(36, 35, 35) !important;
+    padding: .3rem;
+    position: absolute;
+    top: 0rem;
+    left: 0.4rem;
+    z-index: 3
+}
+
+#name{
+    color: rgb(241, 241, 241);
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: fantasy !important;
+}
+
+
+/*index search */
+#title{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+#per-input{
+    margin: .2rem 0;
+    padding: .2rem;
+}
+
+#searchBox{
+    margin: 0; padding: 0rem;
+    border: 1px solid #0C0E28;
+    overflow: hidden;
+    text-align: center;
+
+}
+ #sBox{
+    width: 85%;
+    border: 0;
+    padding: 1rem;
+}
+
+input#sbox::placeholder{
+    margin: 0;
+}
+
+#searchBtn{
+    background: linear-gradient(to right,#B828C4,#0C0E28 180%);
+    padding: .5rem 1.5rem;
+    border: none;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    color: #F0F0F0;
+    border-radius: 2px;
+}
+#per-input button:hover{
+    cursor: pointer;
+    background: linear-gradient(to left,#B828C4,#0C0E28 180%);
+}
+
+#error{
+    background: #e65c63;
+    color: white;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.2px;
+    display: none;
+    border-radius: 3px;
+}
+
+
+
+
+
+/* footer */
+.footer{
+    background: #262C45;
+    color: white;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+}
+
+
+
+/* search */
+#title{
+    font-size: 1.7rem ;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+#item-img{
+    max-width: 100%;
+    min-width: 75%;
+    max-height: 30rem;
+    margin: 0; padding: 0;
+    border: 1.5px solid rgb(68, 65, 65);
+    border-radius: 3px;
+    
+}
+
+#item-info{
+    text-align: left;
+}
+
+#each-info{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 4% auto;
+    letter-spacing: 1.3px;
+}
+
+#info{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 700 !important;
+    letter-spacing: 2px;
+    text-align: center !important;
+    display: block;
+    background: #d3d0d0;
+    padding: .4rem;
+    border-radius: 4px;
+}
+
+#icon{
+    color: #A0467E !important;
+}
+

@@ -1,0 +1,213 @@
+/* index */
+
+
+a{
+    text-decoration: none;
+    color: #F8D774;
+}
+
+a#btn{
+    display: block;
+    width: 85%;
+    background: linear-gradient(to right, #007ACC, #1A2B70 100%);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 1.4px;
+    border: 1px solid #1A2B70;
+    margin: .5rem auto;
+}
+
+a#btn:hover{
+    background: linear-gradient(to left, #007ACC, #1A2B70 100%);
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px #007ACC;
+}
+
+#alt-btn{
+    background: linear-gradient(to right, #007ACC, #1A2B70 100%);
+    border: none;
+    padding: .4rem;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 1px solid #1A2B70;
+    border-radius: 3px;
+    margin: 0% auto;
+}
+
+#alt-btn:hover{
+    cursor: pointer;
+     background: linear-gradient(to bottom, #007ACC, #1A2B70 100%);
+}
+
+#update{
+    position: fixed;
+    top: 6rem;
+    left: 0%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .99;
+    display: none;
+    z-index: 4;
+}
+
+.overide{
+    margin: -2rem auto auto auto;
+}
+
+#close{
+    background-color: crimson;
+    position: absolute;
+    right: 1rem;
+    top: -1rem;
+    height: 2.2rem; width: 2.2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 45%;
+    transform: 10s ease all;
+}
+#close:hover{
+    cursor: pointer;
+    transform: rotate(35deg);
+}
+
+#errorMsg{
+    background: #da2b34;
+    color: white;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1.2px;
+    display: none;
+    border-radius: 3px;
+}
+
+#send{
+    display: none;
+}
+
+
+
+
+
+
+/* New item */
+#header{
+    background: transparent;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 1.3px;
+    color: #1A2B70;
+}
+
+#header>hr{
+    background-color:  #FF69B4;
+    margin-top: 0rem;
+    width: 4rem;
+    height: 4px;
+}
+
+
+#formPanel{
+    border: 1px solid black;
+    background: #eeeeee;
+    border-radius: 5px;
+    padding: 3rem 2rem!important;
+}
+
+#form{
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+#form label{
+    font-size: 1.32rem;
+    font-weight: 400;
+    padding-right: 1rem;
+    letter-spacing: 1.5px;
+}
+
+#form input , #form textarea {
+    background: transparent;
+    border:  solid #A0467E;
+    border-width: 0 0 1.5px 0;
+    padding: .4rem 1rem;
+    width: 90%;
+    font-size: 1.2rem;
+    transition: 3s ease border;
+}
+
+#form input:hover, #form textarea:hover {
+    border:  solid #425ecc;
+    border-width: 0 0 1.5px 0;
+}
+
+#form>#btn{
+    padding: .7rem 1rem;
+    width: 12rem;
+    background: linear-gradient(to left,#007ACC,#9022A0);
+    border: 1px solid #1A2B70;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    color: #69FFB4;
+}
+
+#form>#btn:hover{
+    cursor: pointer;
+    color: white;
+     background: linear-gradient(to right,#007ACC,#9022A0 70%);
+}
+
+
+#form input[type=file] {
+    display: none;
+}
+
+#import{
+    display: block !important;
+    text-align: center;
+    background: #A0467E;
+    padding: .6rem .5rem;
+    font-size: 1.1rem !important;
+    color: white;
+    border-radius: 3px;
+}
+
+#import:hover{
+    box-shadow: 1px 1.3px 1.6px #9022A0;
+    cursor: pointer;
+    color: #1A2B70;
+}
+
+ #import:hover  .fa-upload{
+    color: white !important;
+}
+
+
+
+/* View items */
+tr{
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 100 !important;
+}
+
+tr a#ico {
+    text-emphasis: none;
+    text-decoration: none;
+    color: #1A2B70;
+    font-size: 1.2rem;
+    transition: .8s ease color;
+}
+
+tr a#ico:hover{
+    color: #00D462 !important;
+}
